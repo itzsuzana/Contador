@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="caixa">
+
+        <h1>Super Contador</h1>
+        <p>Escolha por onde começar e onde terminar.</p>
+
+        <label>Número inicial:</label>
+        <br>
+        <input type="number" id="inicio" placeholder="Número inicial (Ex: 1)">
+        <br>
+        <br>
+
+        <label>Número Final:</label>
+        <br>
+        <input type="number" id="final" placeholder="Número Final (Ex: 10)">
+        <br>
+        <br>
+
+        <button type="button" onclick="iniciarContagem()">
+            Contar Agora!
+        </button>
+
+        <br>
+        <br>
+
+        <div id="tela-resultado">
+            Aguardando números...
+        </div>
+
+    </div>
+
+    <script src="js/Contador.js"></script>
+
+</body>
+</html>
